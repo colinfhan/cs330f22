@@ -1,0 +1,17 @@
+.gray {
+    background-color: rgb(208, 208, 208);
+    height: 300px;
+ }
+
+ #green {
+    color: green;
+ }
+
+ a.link:hover {
+    color: yellow;
+    text-decoration: none;
+ }
+
+ .gray p {
+    background-color: aqua;
+ }
