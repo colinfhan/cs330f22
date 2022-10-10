@@ -1,0 +1,33 @@
+header > h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header > p {
+    color: #797979;
+    font-weight: bold;
+}
+
+header > p > a {
+    color: #000;
+}
+
+section {
+    text-align: center;
+    font-family: serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+section > p {
+    margin: 0;
+}
+
+footer {
+    margin-top: 80px;
+    color: #797979;
+    font-weight: 500;;
+}
+
+footer > p > span {
+    font-style: italic;
+}
