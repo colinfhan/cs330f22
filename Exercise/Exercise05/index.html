@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>CSS Animation and JavaScript</title>
+  </head>
+  <body>
+    <nav class="button-bar" aria-labelledby="mainmenulabel">
+        <button id="play-button" title="Play" onclick="playPause();">
+          <div class="icon"></div>
+        </button>
+        <button id="pause-button" class="hidden" title="Pause" onclick="playPause();">
+          <div class="icon"></div>
+        </button>
+        <button id="record-button" title="Record" onclick="recordStop();">
+          <div class="icon"></div>
+        </button>
+        <button id="stop-button" class="hidden" title="Stop" onclick="recordStop();">
+          <div class="icon"></div>
+        </button>
+    </nav>
+
+  </body>
+</html>

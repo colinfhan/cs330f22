@@ -1,0 +1,62 @@
+nav.button-bar button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #969;
+    border:none;
+
+}
+nav.button-bar button:hover{
+    opacity:0.8;
+}
+nav.button-bar button:active{
+    opacity: 0.6;
+}
+
+#stop-button .icon,
+#record-button .icon{
+    background-color: white;
+    width:45px;
+    height:45px;
+    margin: auto;
+    border-radius:4px;
+}
+#record-button .icon{
+    border-radius:50%;
+}
+#pause-button .icon{
+    border-right:15px solid white;
+    border-left:15px solid white;
+    width:10px;
+    height:40px;
+    margin:auto;
+    border-radius:2px;
+}
+#play-button .icon{
+    width:40px;
+    height:40px;
+    border-color: transparent transparent transparent white;
+    border-style:solid;
+    margin:auto;
+    box-sizing: border-box;
+    border-width:20px 0px 20px 40px;
+}
+
+#stop-button{
+    background-color:#a00;
+
+}
+
+@keyframes flashing{
+    from {opacity:1.0}
+    to {opacity:0.0}
+}
+#stop-button .icon{
+    animation-name: flashing;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+nav.button-bar .hidden{
+    display: none;
+}
