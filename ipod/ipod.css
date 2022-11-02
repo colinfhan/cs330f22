@@ -118,42 +118,77 @@ body {
 /* 
 	Player 
 			*/
-.player-album-art {
-	
+.player-album-img {
+	width: 240px;
+	margin-top: 30px;
+	margin-left: 30px;
 }
 
 .player-song-info {
-	
+	text-align: center;
 }
 
-#player-song-name {
-	
+.player-song-name {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 0;
 }
 
-.volume-bar {
-	
+.player-album-art {
+	font-size: 18px;
+	margin-top: 0;
+	color: #a562c8;
+	margin-bottom: 0;
+}
+
+#volume-bar {
+	margin-top: 10px;
+	margin-left: 30px;
+	width: 240px;
 }
 
 .volume-level {
-	
+	height: 6px;
+	width: 24px;
+	border: 1px solid black;
+	margin-bottom: 8px;
 }
 
 .volume-rocker {
-	
+	margin-top: 5px;
+	text-align: center;
+}
+
+.volume-rocker > div {
+	display: inline-block;
 }
 
 .player-controls{
-	
+	text-align: center;
 }
 
 #player-time {
-	
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
 }
 
-#time-elapsed {
-	
+.volume-button-group {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
-#time-total{
-	
+.volume-button-group > button {
+	background-color: white;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	box-shadow: 0px 1px #e8e8e8;
+	width: 90px;
+	height: 16px;
+	padding: 0;
 }

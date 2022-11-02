@@ -1,0 +1,48 @@
+<html>
+<header>
+   <title>Music Player</title>
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</header>
+<body>
+   <div id="screen">
+     <div class="head-bar">
+      <div class="back-button"><i class="material-icons">arrow_back</i></div>
+   </div>
+   <img src="images/currents.jpg" alt="Currents Album Cover" class="player-album-img" />
+   <div class="player-song-info">
+      <p class="player-song-name">The Less I Know The Better</p>
+      <p class="player-album-art"><em>Currents</em> - Tame Impala</p>
+   </div>
+   <input id="volume-bar" type="range" min="0" max="180" value="0">
+   <div id="player-time">
+      <div id="time-elapsed">0:00</div>
+      <div id="time-total">3:00</div>
+   </div>
+   <div class="player-controls">
+      <button onclick="prevSong()"><span class="material-icons">skip_previous</span></button>
+      <button onclick="switchPlay(this)"><span class="material-icons">play_arrow</span></button>
+      <button onclick="nextSong()"><span class="material-icons">skip_next</span></button>
+   </div>
+   <div class="volume-rocker">
+      <div><span class="material-icons">volume_down</span></div>
+      <div class="volume-level" id="vl0"></div>
+      <div class="volume-level" id="vl1"></div>
+      <div class="volume-level" id="vl2"></div>
+      <div class="volume-level" id="vl3"></div>
+      <div class="volume-level" id="vl4"></div>
+      <div class="volume-level" id="vl5"></div>
+   </div>
+   <div class="volume-button-group">
+      <button class="volume-button" onclick="volDown()">&mdash;</button>
+      <button class="volume-button" onclick="volUp()">+</button>
+   </div>
+   
+</div>
+<script src="ipod.js"></script>
+</body>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->
