@@ -40,7 +40,7 @@ function volDown() {
 
 function switchPlay(event) {
 	// Your code goes here
-	if (currentPlaying) {
+	if (!currentPlaying) {
 		event.innerHTML = "<span class=\"material-icons\">pause</span>";
 	} else {
 		event.innerHTML = "<span class=\"material-icons\">play_arrow</span>";
