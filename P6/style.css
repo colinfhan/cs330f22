@@ -1,0 +1,102 @@
+.inline {
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.img-round {
+    border-radius:50%;
+}
+
+.font-comfortaa {
+    font-family: 'Comfortaa', cursive;
+}
+
+.clear {
+    clear: both;
+}
+
+.large {
+    font-size: large;
+}
+
+.xlarge {
+    font-size: x-large;
+}
+
+.xxlarge {
+    font-size: xx-large;
+}
+
+.center-vertical {
+    position: relative;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+body {
+    background-color: #f2f2f2;
+    padding-top: 45px;
+}
+
+.nav {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.nav-deactive {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+.nav-info {
+    margin-right: 50px;
+    user-select: none;
+}
+
+.nav-active {
+    margin-left: 10px;
+    color: #025599;
+    cursor: pointer;
+}
+
+.warp {
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    background: white;
+}
+
+.project-card {
+    padding: 10px;
+}
+
+.project-img {
+    width: 300px;
+}
+
+.project-desc {
+    margin-left: 15px;
+    height: 266px;
+} 
+
+.project-info {
+    display: flex;
+}
+
